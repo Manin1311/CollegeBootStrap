@@ -1,0 +1,47 @@
+<!--
+  Alert--
+    1.alert
+    2.alert-success
+    3.alert-danger
+    3.alert-primary
+    4.alert-secondary
+    5.alert-warning
+    6.alert-info
+    7.alert-light
+    8.alert-dark
+    
+    alert(makes the alert closable)-dimissible (adds padding for the close button)
+
+    show (show alert immediately with fade effect)
+
+    fade (alert fades out smoothly when closed)
+    --><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="alert alert-warning alert-dismissible fade show">
+      Important message
+      <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show">
+        Important message
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+      
+  </body>
+</html>
